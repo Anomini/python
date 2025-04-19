@@ -1,7 +1,7 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='kolayair',
-    version='0.1.0',
-    py_modules=['l'],  # קובץ בשם my_module.py
+    version='1.1.1',
+    packages=find_packages()
 )
